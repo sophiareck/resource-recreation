@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "myFont";
+   src: url('Nimbus-Sans.woff') format('woff');
+}
+body{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: myFont;
+  background-color: #000000;
+  overflow-x: hidden;
+  color: #FFFFFF;
+}
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 2vw;
+}
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 25vw;
+}
+#mainContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: center;
+}
+#topRow{
+  width: 100%;
+  height: 20%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+#painted{
+  padding-top: 12vw;
+  display: flex;
+}
+#do{
+  display: flex;
+}
+#rowTwo{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:20%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items:center;
+}
